@@ -17,8 +17,8 @@
         <link href="https://Oncologie.org/orl2/"/>
         <id>https://Oncologie.org/orl2/</id>
         <media:content url="https://Oncologie.org/media/posts/11/WhatsApp-Image-2022-01-25-at-8.59.54-PM.jpeg" medium="image" />
-            <category term="Poumon"/>
-            <category term="ORL"/>
+            <category term="poumon"/>
+            <category term="orl"/>
 
         <updated>2024-10-23T17:39:11+02:00</updated>
             <summary>
@@ -49,7 +49,7 @@
         <link href="https://Oncologie.org/test-de-related-post/"/>
         <id>https://Oncologie.org/test-de-related-post/</id>
         <media:content url="https://Oncologie.org/media/posts/10/dino-reichmuth-A5rCN8626Ck-unsplash-xxl.jpg" medium="image" />
-            <category term="Elections"/>
+            <category term="elections"/>
 
         <updated>2024-10-23T16:34:02+02:00</updated>
             <summary>
@@ -76,13 +76,13 @@
         <link href="https://Oncologie.org/mise-en-page/"/>
         <id>https://Oncologie.org/mise-en-page/</id>
         <media:content url="https://Oncologie.org/media/posts/9/traitementcancerducerveaucerebrale.jpg" medium="image" />
-            <category term="Vessie"/>
-            <category term="Sein"/>
-            <category term="Poumon"/>
-            <category term="Osseux"/>
-            <category term="ORL"/>
-            <category term="Colorectal"/>
-            <category term="Cerveau"/>
+            <category term="vessie"/>
+            <category term="sein"/>
+            <category term="poumon"/>
+            <category term="osseux"/>
+            <category term="orl"/>
+            <category term="colorectal"/>
+            <category term="cerveau"/>
 
         <updated>2024-10-19T12:44:21+02:00</updated>
             <summary>
@@ -157,8 +157,8 @@
         <link href="https://Oncologie.org/bouton-lien/"/>
         <id>https://Oncologie.org/bouton-lien/</id>
         <media:content url="https://Oncologie.org/media/posts/8/2022-03-29-Elections-1-833x540.png" medium="image" />
-            <category term="Elections"/>
-            <category term="Colorectal"/>
+            <category term="elections"/>
+            <category term="colorectal"/>
 
         <updated>2024-10-18T23:28:17+02:00</updated>
             <summary>
@@ -188,7 +188,7 @@
         <link href="https://Oncologie.org/elections-de-lordre-2024/"/>
         <id>https://Oncologie.org/elections-de-lordre-2024/</id>
         <media:content url="https://Oncologie.org/media/posts/7/800px-ConseilnationaldelOrdredesmedecinslogo-2.jpg" medium="image" />
-            <category term="Elections"/>
+            <category term="elections"/>
 
         <updated>2024-10-14T17:07:09+02:00</updated>
             <summary>
@@ -229,8 +229,8 @@
         <link href="https://Oncologie.org/gastro-poumon/"/>
         <id>https://Oncologie.org/gastro-poumon/</id>
         <media:content url="https://Oncologie.org/media/posts/6/gastroenterologie-personnalise.jpg" medium="image" />
-            <category term="Poumon"/>
-            <category term="Colorectal"/>
+            <category term="poumon"/>
+            <category term="colorectal"/>
 
         <updated>2024-10-14T06:49:25+02:00</updated>
             <summary>
@@ -267,7 +267,7 @@
         <link href="https://Oncologie.org/gastro-1/"/>
         <id>https://Oncologie.org/gastro-1/</id>
         <media:content url="https://Oncologie.org/media/posts/5/20042022_160436_25365_gastro-01.png" medium="image" />
-            <category term="Colorectal"/>
+            <category term="colorectal"/>
 
         <updated>2024-10-14T06:39:14+02:00</updated>
             <summary>
@@ -297,7 +297,7 @@
         <link href="https://Oncologie.org/poumon-1/"/>
         <id>https://Oncologie.org/poumon-1/</id>
         <media:content url="https://Oncologie.org/media/posts/4/poumons_ok.jpg" medium="image" />
-            <category term="Poumon"/>
+            <category term="poumon"/>
 
         <updated>2024-10-14T02:21:11+02:00</updated>
             <summary>
@@ -331,7 +331,7 @@
         <link href="https://Oncologie.org/orl-1/"/>
         <id>https://Oncologie.org/orl-1/</id>
         <media:content url="https://Oncologie.org/media/posts/1/41-1024x1024.png" medium="image" />
-            <category term="ORL"/>
+            <category term="orl"/>
 
         <updated>2024-10-14T01:28:36+02:00</updated>
             <summary>
