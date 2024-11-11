@@ -3,12 +3,36 @@
     <title>Oncologie.Org</title>
     <link href="https://Oncologie.org/feed.xml" rel="self" />
     <link href="https://Oncologie.org" />
-    <updated>2024-11-11T21:07:34+01:00</updated>
+    <updated>2024-11-11T21:24:32+01:00</updated>
     <author>
         <name>Dr Mohammed-Amine Bensakhria</name>
     </author>
     <id>https://Oncologie.org</id>
 
+    <entry>
+        <title>Journée Scientifique GHOST</title>
+        <author>
+            <name>Dr Mohammed-Amine Bensakhria</name>
+        </author>
+        <link href="https://Oncologie.org/journee-scientifique-ghost/"/>
+        <id>https://Oncologie.org/journee-scientifique-ghost/</id>
+        <media:content url="https://Oncologie.org/media/posts/12/Ghost.png" medium="image" />
+            <category term="Journées Scientifiques"/>
+
+        <updated>2024-11-11T21:24:32+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://Oncologie.org/media/posts/12/Ghost.png" alt="" />
+                    Programme
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://Oncologie.org/media/posts/12/Ghost.png" class="type:primaryImage" alt="" /></p>
+                <p><a href="https://Oncologie.org/null"></a><a href="https://Oncologie.org/null">Programme</a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Bienvenue au site des Oncologues Médicaux de l&#x27;hôpital Saint-Louis</title>
         <author>

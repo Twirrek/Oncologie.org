@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://Oncologie.org/journee-scientifique-ghost/",
+            "url": "https://Oncologie.org/journee-scientifique-ghost/",
+            "title": "Journée Scientifique GHOST",
+            "summary": "Programme",
+            "content_html": "<p><a href=\"https://Oncologie.org/null\"></a><a href=\"https://Oncologie.org/null\">Programme</a></p>",
+            "image": "https://Oncologie.org/media/posts/12/Ghost.png",
+            "author": {
+                "name": "Dr Mohammed-Amine Bensakhria"
+            },
+            "tags": [
+                   "Journées Scientifiques"
+            ],
+            "date_published": "2024-11-11T21:24:32+01:00",
+            "date_modified": "2024-11-11T21:24:32+01:00"
+        },
+        {
             "id": "https://Oncologie.org/orl2/",
             "url": "https://Oncologie.org/orl2/",
             "title": "Bienvenue au site des Oncologues Médicaux de l&#x27;hôpital Saint-Louis",
