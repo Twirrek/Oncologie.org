@@ -12,10 +12,10 @@
         {
             "id": "https://Oncologie.org/orl2/",
             "url": "https://Oncologie.org/orl2/",
-            "title": "ORL2",
+            "title": "Bienvenue",
             "summary": "test de lien ORL ELECT&nbsp; test&nbsp;",
             "content_html": "\n  <p>\n    test de lien ORL ELECT&nbsp;\n  </p>\n\n  <p>\n    test&nbsp;\n  </p>",
-            "image": "https://Oncologie.org/media/posts/11/WhatsApp-Image-2022-01-25-at-8.59.54-PM.jpeg",
+            "image": "https://Oncologie.org/media/posts/11/STLouis.jpg",
             "author": {
                 "name": "Dr Mohammed-Amine Bensakhria"
             },
@@ -24,7 +24,7 @@
                    "orl"
             ],
             "date_published": "2024-10-23T17:39:11+02:00",
-            "date_modified": "2024-10-27T13:35:40+01:00"
+            "date_modified": "2024-11-11T18:48:12+01:00"
         },
         {
             "id": "https://Oncologie.org/test-de-related-post/",

@@ -3,33 +3,33 @@
     <title>Oncologie.Org</title>
     <link href="https://Oncologie.org/feed.xml" rel="self" />
     <link href="https://Oncologie.org" />
-    <updated>2024-10-27T13:35:40+01:00</updated>
+    <updated>2024-11-11T18:48:12+01:00</updated>
     <author>
         <name>Dr Mohammed-Amine Bensakhria</name>
     </author>
     <id>https://Oncologie.org</id>
 
     <entry>
-        <title>ORL2</title>
+        <title>Bienvenue</title>
         <author>
             <name>Dr Mohammed-Amine Bensakhria</name>
         </author>
         <link href="https://Oncologie.org/orl2/"/>
         <id>https://Oncologie.org/orl2/</id>
-        <media:content url="https://Oncologie.org/media/posts/11/WhatsApp-Image-2022-01-25-at-8.59.54-PM.jpeg" medium="image" />
+        <media:content url="https://Oncologie.org/media/posts/11/STLouis.jpg" medium="image" />
             <category term="poumon"/>
             <category term="orl"/>
 
         <updated>2024-10-23T17:39:11+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://Oncologie.org/media/posts/11/WhatsApp-Image-2022-01-25-at-8.59.54-PM.jpeg" alt="" />
+                        <img src="https://Oncologie.org/media/posts/11/STLouis.jpg" alt="" />
                     test de lien ORL ELECT&nbsp; test&nbsp;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://Oncologie.org/media/posts/11/WhatsApp-Image-2022-01-25-at-8.59.54-PM.jpeg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://Oncologie.org/media/posts/11/STLouis.jpg" class="type:primaryImage" alt="" /></p>
                 
   <p>
     test de lien ORL ELECT&nbsp;
