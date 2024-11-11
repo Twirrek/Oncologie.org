@@ -50,7 +50,7 @@ body {
   letter-spacing: var(--letter-spacing);
   line-height: var(--line-height);
   -ms-scroll-chaining: none;
-      overscroll-behavior: none;
+      overscroll-behavior: contain;
 }
 
 a {
@@ -1229,7 +1229,7 @@ textarea {
 }
 
 /* Icon */
-#sidebar p {
+.sidebar p {
   margin:0 0 2em 0;
 }
 .icon {

@@ -3,7 +3,7 @@
     <title>Oncologie.Org</title>
     <link href="https://Oncologie.org/feed.xml" rel="self" />
     <link href="https://Oncologie.org" />
-    <updated>2024-11-11T19:14:38+01:00</updated>
+    <updated>2024-11-11T20:32:42+01:00</updated>
     <author>
         <name>Dr Mohammed-Amine Bensakhria</name>
     </author>
@@ -41,25 +41,25 @@
         </content>
     </entry>
     <entry>
-        <title>Test de related post</title>
+        <title>Journée Scientifique GHOST</title>
         <author>
             <name>Dr Mohammed-Amine Bensakhria</name>
         </author>
         <link href="https://Oncologie.org/test-de-related-post/"/>
         <id>https://Oncologie.org/test-de-related-post/</id>
-        <media:content url="https://Oncologie.org/media/posts/10/dino-reichmuth-A5rCN8626Ck-unsplash-xxl.jpg" medium="image" />
-            <category term="elections"/>
+        <media:content url="https://Oncologie.org/media/posts/10/Ghost.png" medium="image" />
+            <category term="Journées Scientifiques"/>
 
         <updated>2024-10-23T16:34:02+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://Oncologie.org/media/posts/10/dino-reichmuth-A5rCN8626Ck-unsplash-xxl.jpg" alt="" />
+                        <img src="https://Oncologie.org/media/posts/10/Ghost.png" alt="" />
                     Lien test Lien test Lien test Lien test
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://Oncologie.org/media/posts/10/dino-reichmuth-A5rCN8626Ck-unsplash-xxl.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://Oncologie.org/media/posts/10/Ghost.png" class="type:primaryImage" alt="" /></p>
                 
   <p>
     Lien test<br><br>Lien test<br><br>Lien test<br><br>Lien test
@@ -75,13 +75,11 @@
         <link href="https://Oncologie.org/mise-en-page/"/>
         <id>https://Oncologie.org/mise-en-page/</id>
         <media:content url="https://Oncologie.org/media/posts/9/traitementcancerducerveaucerebrale.jpg" medium="image" />
-            <category term="vessie"/>
-            <category term="sein"/>
-            <category term="poumon"/>
-            <category term="osseux"/>
-            <category term="orl"/>
-            <category term="colorectal"/>
-            <category term="cerveau"/>
+            <category term="Sarcomes"/>
+            <category term="Poumon"/>
+            <category term="Cerveau"/>
+            <category term="Cancers Urologiques"/>
+            <category term="Cancers ORL"/>
 
         <updated>2024-10-19T12:44:21+02:00</updated>
             <summary>
@@ -157,7 +155,6 @@
         <id>https://Oncologie.org/bouton-lien/</id>
         <media:content url="https://Oncologie.org/media/posts/8/2022-03-29-Elections-1-833x540.png" medium="image" />
             <category term="elections"/>
-            <category term="colorectal"/>
 
         <updated>2024-10-18T23:28:17+02:00</updated>
             <summary>
@@ -221,15 +218,14 @@
         </content>
     </entry>
     <entry>
-        <title>Gastro Poumon</title>
+        <title>Poumon</title>
         <author>
             <name>Dr Mohammed-Amine Bensakhria</name>
         </author>
         <link href="https://Oncologie.org/gastro-poumon/"/>
         <id>https://Oncologie.org/gastro-poumon/</id>
         <media:content url="https://Oncologie.org/media/posts/6/gastroenterologie-personnalise.jpg" medium="image" />
-            <category term="poumon"/>
-            <category term="colorectal"/>
+            <category term="Poumon"/>
 
         <updated>2024-10-14T06:49:25+02:00</updated>
             <summary>
@@ -266,7 +262,6 @@
         <link href="https://Oncologie.org/gastro-1/"/>
         <id>https://Oncologie.org/gastro-1/</id>
         <media:content url="https://Oncologie.org/media/posts/5/20042022_160436_25365_gastro-01.png" medium="image" />
-            <category term="colorectal"/>
 
         <updated>2024-10-14T06:39:14+02:00</updated>
             <summary>
@@ -296,7 +291,7 @@
         <link href="https://Oncologie.org/poumon-1/"/>
         <id>https://Oncologie.org/poumon-1/</id>
         <media:content url="https://Oncologie.org/media/posts/4/poumons_ok.jpg" medium="image" />
-            <category term="poumon"/>
+            <category term="Poumon"/>
 
         <updated>2024-10-14T02:21:11+02:00</updated>
             <summary>
@@ -330,7 +325,7 @@
         <link href="https://Oncologie.org/orl-1/"/>
         <id>https://Oncologie.org/orl-1/</id>
         <media:content url="https://Oncologie.org/media/posts/1/41-1024x1024.png" medium="image" />
-            <category term="orl"/>
+            <category term="Cancers ORL"/>
 
         <updated>2024-10-14T01:28:36+02:00</updated>
             <summary>

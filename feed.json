@@ -28,18 +28,18 @@
         {
             "id": "https://Oncologie.org/test-de-related-post/",
             "url": "https://Oncologie.org/test-de-related-post/",
-            "title": "Test de related post",
+            "title": "Journée Scientifique GHOST",
             "summary": "Lien test Lien test Lien test Lien test",
             "content_html": "\n  <p>\n    Lien test<br><br>Lien test<br><br>Lien test<br><br>Lien test\n  </p>",
-            "image": "https://Oncologie.org/media/posts/10/dino-reichmuth-A5rCN8626Ck-unsplash-xxl.jpg",
+            "image": "https://Oncologie.org/media/posts/10/Ghost.png",
             "author": {
                 "name": "Dr Mohammed-Amine Bensakhria"
             },
             "tags": [
-                   "elections"
+                   "Journées Scientifiques"
             ],
             "date_published": "2024-10-23T16:34:02+02:00",
-            "date_modified": "2024-10-24T03:41:50+02:00"
+            "date_modified": "2024-11-11T20:32:42+01:00"
         },
         {
             "id": "https://Oncologie.org/mise-en-page/",
@@ -52,13 +52,11 @@
                 "name": "Dr Mohammed-Amine Bensakhria"
             },
             "tags": [
-                   "vessie",
-                   "sein",
-                   "poumon",
-                   "osseux",
-                   "orl",
-                   "colorectal",
-                   "cerveau"
+                   "Sarcomes",
+                   "Poumon",
+                   "Cerveau",
+                   "Cancers Urologiques",
+                   "Cancers ORL"
             ],
             "date_published": "2024-10-19T12:44:21+02:00",
             "date_modified": "2024-10-26T15:06:18+02:00"
@@ -74,8 +72,7 @@
                 "name": "Dr Mohammed-Amine Bensakhria"
             },
             "tags": [
-                   "elections",
-                   "colorectal"
+                   "elections"
             ],
             "date_published": "2024-10-18T23:28:17+02:00",
             "date_modified": "2024-10-24T03:42:23+02:00"
@@ -99,7 +96,7 @@
         {
             "id": "https://Oncologie.org/gastro-poumon/",
             "url": "https://Oncologie.org/gastro-poumon/",
-            "title": "Gastro Poumon",
+            "title": "Poumon",
             "summary": "jhhjhjhkhl,;:,:;,: bnl;,;,;,;, n;nn bb,bnbnbb,nbn,bn,b, b,bb,b ,b,b,b,b, ,b,b,b,b,b,b,b,b,b,b,,b,b,b 😀🥰 nn;n,n,n,n;n;",
             "content_html": "<p class=\"msg msg--info msg--highlight \">jhhjhjhkhl,;:,:;,:</p>\n<p> </p>\n<p class=\"msg msg--info msg--highlight \"><span style=\"background-color: rgba(var(--success-rgb), 0.1); color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);\">bnl;,;,;,;, n;nn bb,bnbnbb,nbn,bn,b,                             b,bb,b ,b,b,b,b, ,b,b,b,b,b,b,b,b,b,b,,b,b,b<br><br></span></p>\n<p> </p>\n<blockquote>\n<p>😀🥰</p>\n</blockquote>\n<hr>\n<div class=\"gallery-wrapper\"><div class=\"gallery\"  data-is-empty=\"true\" data-translation=\"Ajouter des images\"> </div></div>\n<h1>😍</h1>\n<h1> </h1>\n<h1> </h1>\n<h1 class=\"msg msg--warning\">nbnbnb,nb</h1>\n<p>nn;n,n,n,n;n;</p>",
             "image": "https://Oncologie.org/media/posts/6/gastroenterologie-personnalise.jpg",
@@ -107,11 +104,10 @@
                 "name": "Dr Mohammed-Amine Bensakhria"
             },
             "tags": [
-                   "poumon",
-                   "colorectal"
+                   "Poumon"
             ],
             "date_published": "2024-10-14T06:49:25+02:00",
-            "date_modified": "2024-10-18T16:07:29+02:00"
+            "date_modified": "2024-11-11T20:21:48+01:00"
         },
         {
             "id": "https://Oncologie.org/gastro-1/",
@@ -124,7 +120,6 @@
                 "name": "Dr Mohammed-Amine Bensakhria"
             },
             "tags": [
-                   "colorectal"
             ],
             "date_published": "2024-10-14T06:39:14+02:00",
             "date_modified": "2024-10-18T16:07:46+02:00"
@@ -140,7 +135,7 @@
                 "name": "Dr Mohammed-Amine Bensakhria"
             },
             "tags": [
-                   "poumon"
+                   "Poumon"
             ],
             "date_published": "2024-10-14T02:21:11+02:00",
             "date_modified": "2024-10-18T16:07:57+02:00"
@@ -156,7 +151,7 @@
                 "name": "Dr Mohammed-Amine Bensakhria"
             },
             "tags": [
-                   "orl"
+                   "Cancers ORL"
             ],
             "date_published": "2024-10-14T01:28:36+02:00",
             "date_modified": "2024-10-23T16:43:22+02:00"
