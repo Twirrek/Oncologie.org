@@ -51,6 +51,7 @@ body {
   line-height: var(--line-height);
   -ms-scroll-chaining: none;
       overscroll-behavior: contain;
+  -webkit-tap-highlight-color: transparent;
 }
 
 a {

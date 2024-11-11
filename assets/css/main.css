@@ -50,7 +50,7 @@ body {
   letter-spacing: var(--letter-spacing);
   line-height: var(--line-height);
   -ms-scroll-chaining: none;
-      overscroll-behavior: contain;
+      overscroll-behavior: auto;
   -webkit-tap-highlight-color: transparent;
 }
 
