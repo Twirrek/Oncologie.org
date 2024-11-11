@@ -10,11 +10,26 @@
     },
     "items": [
         {
+            "id": "https://Oncologie.org/journee-scientifique-ghost-2/",
+            "url": "https://Oncologie.org/journee-scientifique-ghost-2/",
+            "title": "Journée Scientifique GHOST",
+            "summary": "Téléchargez le Programme",
+            "content_html": "<p>Téléchargez le <a href=\"https://Oncologie.org/media/files/Affiche Journée scientifique GHOST - 2024.pdf\">Programme</a></p>",
+            "image": "https://Oncologie.org/media/posts/13/Ghost.png",
+            "author": {
+                "name": "Dr Mohammed-Amine Bensakhria"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-11-11T22:55:43+01:00",
+            "date_modified": "2024-11-11T22:55:43+01:00"
+        },
+        {
             "id": "https://Oncologie.org/orl2/",
             "url": "https://Oncologie.org/orl2/",
             "title": "Bienvenue au site des Oncologues Médicaux de l&#x27;hôpital Saint-Louis",
-            "summary": "test de lien ORL ELECT&nbsp; test&nbsp;",
-            "content_html": "\n  <p>\n    test de lien ORL ELECT&nbsp;\n  </p>\n\n  <p>\n    test&nbsp;\n  </p>\n\n  <p>\n    \n  </p>",
+            "summary": "test de lien test&nbsp;",
+            "content_html": "\n  <p>\n    test de lien\n  </p>\n\n  <p>\n    test&nbsp;\n  </p>\n\n  <p>\n    \n  </p>",
             "image": "https://Oncologie.org/media/posts/11/STLouis.jpg",
             "author": {
                 "name": "Dr Mohammed-Amine Bensakhria"
@@ -23,23 +38,7 @@
                    "Service"
             ],
             "date_published": "2024-10-23T17:39:11+02:00",
-            "date_modified": "2024-11-11T22:25:03+01:00"
-        },
-        {
-            "id": "https://Oncologie.org/test-de-related-post/",
-            "url": "https://Oncologie.org/test-de-related-post/",
-            "title": "Journée Scientifique GHOST",
-            "summary": "Lien test Lien test Lien test Lien test",
-            "content_html": "\n  <p>\n    Lien test<br><br>Lien test<br><br>Lien test<br><br>Lien test\n  </p>",
-            "image": "https://Oncologie.org/media/posts/10/Ghost.png",
-            "author": {
-                "name": "Dr Mohammed-Amine Bensakhria"
-            },
-            "tags": [
-                   "Journées Scientifiques"
-            ],
-            "date_published": "2024-10-23T16:34:02+02:00",
-            "date_modified": "2024-11-11T20:32:42+01:00"
+            "date_modified": "2024-11-11T22:56:08+01:00"
         },
         {
             "id": "https://Oncologie.org/gastro-1/",

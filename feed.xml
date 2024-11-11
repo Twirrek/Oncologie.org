@@ -3,12 +3,35 @@
     <title>Oncologie.Org</title>
     <link href="https://Oncologie.org/feed.xml" rel="self" />
     <link href="https://Oncologie.org" />
-    <updated>2024-11-11T22:26:16+01:00</updated>
+    <updated>2024-11-11T22:56:08+01:00</updated>
     <author>
         <name>Dr Mohammed-Amine Bensakhria</name>
     </author>
     <id>https://Oncologie.org</id>
 
+    <entry>
+        <title>Journée Scientifique GHOST</title>
+        <author>
+            <name>Dr Mohammed-Amine Bensakhria</name>
+        </author>
+        <link href="https://Oncologie.org/journee-scientifique-ghost-2/"/>
+        <id>https://Oncologie.org/journee-scientifique-ghost-2/</id>
+        <media:content url="https://Oncologie.org/media/posts/13/Ghost.png" medium="image" />
+
+        <updated>2024-11-11T22:55:43+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://Oncologie.org/media/posts/13/Ghost.png" alt="" />
+                    Téléchargez le Programme
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://Oncologie.org/media/posts/13/Ghost.png" class="type:primaryImage" alt="" /></p>
+                <p>Téléchargez le <a href="https://Oncologie.org/media/files/Affiche Journée scientifique GHOST - 2024.pdf">Programme</a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Bienvenue au site des Oncologues Médicaux de l&#x27;hôpital Saint-Louis</title>
         <author>
@@ -23,7 +46,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://Oncologie.org/media/posts/11/STLouis.jpg" alt="" />
-                    test de lien ORL ELECT&nbsp; test&nbsp;
+                    test de lien test&nbsp;
                 ]]>
             </summary>
         <content type="html">
@@ -31,7 +54,7 @@
                     <p><img src="https://Oncologie.org/media/posts/11/STLouis.jpg" class="type:primaryImage" alt="" /></p>
                 
   <p>
-    test de lien ORL ELECT&nbsp;
+    test de lien
   </p>
 
   <p>
@@ -40,33 +63,6 @@
 
   <p>
     
-  </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Journée Scientifique GHOST</title>
-        <author>
-            <name>Dr Mohammed-Amine Bensakhria</name>
-        </author>
-        <link href="https://Oncologie.org/test-de-related-post/"/>
-        <id>https://Oncologie.org/test-de-related-post/</id>
-        <media:content url="https://Oncologie.org/media/posts/10/Ghost.png" medium="image" />
-            <category term="Journées Scientifiques"/>
-
-        <updated>2024-10-23T16:34:02+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://Oncologie.org/media/posts/10/Ghost.png" alt="" />
-                    Lien test Lien test Lien test Lien test
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://Oncologie.org/media/posts/10/Ghost.png" class="type:primaryImage" alt="" /></p>
-                
-  <p>
-    Lien test<br><br>Lien test<br><br>Lien test<br><br>Lien test
   </p>
             ]]>
         </content>
