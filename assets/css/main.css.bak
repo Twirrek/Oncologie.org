@@ -52,6 +52,10 @@ body {
   -ms-scroll-chaining: none;
       overscroll-behavior: auto;
   -webkit-tap-highlight-color: transparent;
+  
+}
+body:focus{
+  outline: none !important;
 }
 
 a {
