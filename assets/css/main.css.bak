@@ -54,7 +54,7 @@ body {
   -webkit-tap-highlight-color: transparent;
   
 }
-body:focus{
+:focus{
   outline: none !important;
 }
 
