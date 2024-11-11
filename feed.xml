@@ -3,36 +3,12 @@
     <title>Oncologie.Org</title>
     <link href="https://Oncologie.org/feed.xml" rel="self" />
     <link href="https://Oncologie.org" />
-    <updated>2024-11-11T21:24:32+01:00</updated>
+    <updated>2024-11-11T22:26:16+01:00</updated>
     <author>
         <name>Dr Mohammed-Amine Bensakhria</name>
     </author>
     <id>https://Oncologie.org</id>
 
-    <entry>
-        <title>Journée Scientifique GHOST</title>
-        <author>
-            <name>Dr Mohammed-Amine Bensakhria</name>
-        </author>
-        <link href="https://Oncologie.org/journee-scientifique-ghost/"/>
-        <id>https://Oncologie.org/journee-scientifique-ghost/</id>
-        <media:content url="https://Oncologie.org/media/posts/12/Ghost.png" medium="image" />
-            <category term="Journées Scientifiques"/>
-
-        <updated>2024-11-11T21:24:32+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://Oncologie.org/media/posts/12/Ghost.png" alt="" />
-                    Programme
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://Oncologie.org/media/posts/12/Ghost.png" class="type:primaryImage" alt="" /></p>
-                <p><a href="https://Oncologie.org/null"></a><a href="https://Oncologie.org/null">Programme</a></p>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>Bienvenue au site des Oncologues Médicaux de l&#x27;hôpital Saint-Louis</title>
         <author>
@@ -60,6 +36,10 @@
 
   <p>
     test&nbsp;
+  </p>
+
+  <p>
+    
   </p>
             ]]>
         </content>
@@ -98,19 +78,19 @@
         </author>
         <link href="https://Oncologie.org/gastro-1/"/>
         <id>https://Oncologie.org/gastro-1/</id>
-        <media:content url="https://Oncologie.org/media/posts/5/20042022_160436_25365_gastro-01.png" medium="image" />
+        <media:content url="https://Oncologie.org/media/posts/5/Gyneco.jpg" medium="image" />
             <category term="Cancers gynécologiques"/>
 
         <updated>2024-10-14T06:39:14+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://Oncologie.org/media/posts/5/20042022_160436_25365_gastro-01.png" alt="" />
+                        <img src="https://Oncologie.org/media/posts/5/Gyneco.jpg" alt="" />
                     Champ général La gastro-entérologie s'intéresse à l'ensemble du tube digestif, du pharynx jusqu'à l'anus, en passant par les organes digestifs intra-abdominaux que sont le foie, les voies biliaires et le pancréas (excepté dans sa fonction endocrine, qui relève de l'endocrinologie)1. Si la gastro-entérologie est une&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://Oncologie.org/media/posts/5/20042022_160436_25365_gastro-01.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://Oncologie.org/media/posts/5/Gyneco.jpg" class="type:primaryImage" alt="" /></p>
                 <h3> </h3>
 <h3 id="Champ_général">Champ général</h3>
 <p>La gastro-entérologie s'intéresse à l'ensemble du <a href="https://fr.wikipedia.org/wiki/Syst%C3%A8me_digestif_humain" class="mw-redirect" title="Système digestif humain">tube digestif</a>, du <a href="https://fr.wikipedia.org/wiki/Pharynx" title="Pharynx">pharynx</a> jusqu'à l'anus, en passant par les organes digestifs intra-abdominaux que sont le foie, les voies biliaires et le pancréas (excepté dans sa fonction endocrine, qui relève de l'<a href="https://fr.wikipedia.org/wiki/Endocrinologie" title="Endocrinologie">endocrinologie</a>)<sup id="cite_ref-1" class="reference"><a href="https://fr.wikipedia.org/wiki/Gastro-ent%C3%A9rologie#cite_note-1">1</a></sup>. Si la gastro-entérologie est une spécialité médicale, les médecins la pratiquant réalisent couramment des actes techniques, comme les endoscopies digestives (par exemple <a href="https://fr.wikipedia.org/wiki/Endoscopie_digestive_haute" title="Endoscopie digestive haute">œso-gastro-duodénoscopie</a> et <a href="https://fr.wikipedia.org/wiki/Colonoscopie" class="mw-redirect" title="Colonoscopie">colonoscopie</a>) et des gestes utilisant des techniques de <a href="https://fr.wikipedia.org/wiki/Radiologie_interventionnelle" title="Radiologie interventionnelle">radiologie interventionnelle</a> (par exemple les <a href="https://fr.wikipedia.org/w/index.php?title=Cholangiographie&amp;action=edit&amp;redlink=1" class="new" title="Cholangiographie (page inexistante)">cholangiographies</a><sup id="cite_ref-2" class="reference"><a href="https://fr.wikipedia.org/wiki/Gastro-ent%C3%A9rologie#cite_note-2">2</a></sup>).</p>
