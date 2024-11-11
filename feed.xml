@@ -3,22 +3,21 @@
     <title>Oncologie.Org</title>
     <link href="https://Oncologie.org/feed.xml" rel="self" />
     <link href="https://Oncologie.org" />
-    <updated>2024-11-11T18:48:12+01:00</updated>
+    <updated>2024-11-11T19:14:38+01:00</updated>
     <author>
         <name>Dr Mohammed-Amine Bensakhria</name>
     </author>
     <id>https://Oncologie.org</id>
 
     <entry>
-        <title>Bienvenue</title>
+        <title>Bienvenue au site des Oncologues Médicaux de l&#x27;hôpital Saint Louis</title>
         <author>
             <name>Dr Mohammed-Amine Bensakhria</name>
         </author>
         <link href="https://Oncologie.org/orl2/"/>
         <id>https://Oncologie.org/orl2/</id>
         <media:content url="https://Oncologie.org/media/posts/11/STLouis.jpg" medium="image" />
-            <category term="poumon"/>
-            <category term="orl"/>
+            <category term="Service"/>
 
         <updated>2024-10-23T17:39:11+02:00</updated>
             <summary>

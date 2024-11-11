@@ -12,7 +12,7 @@
         {
             "id": "https://Oncologie.org/orl2/",
             "url": "https://Oncologie.org/orl2/",
-            "title": "Bienvenue",
+            "title": "Bienvenue au site des Oncologues Médicaux de l&#x27;hôpital Saint Louis",
             "summary": "test de lien ORL ELECT&nbsp; test&nbsp;",
             "content_html": "\n  <p>\n    test de lien ORL ELECT&nbsp;\n  </p>\n\n  <p>\n    test&nbsp;\n  </p>",
             "image": "https://Oncologie.org/media/posts/11/STLouis.jpg",
@@ -20,11 +20,10 @@
                 "name": "Dr Mohammed-Amine Bensakhria"
             },
             "tags": [
-                   "poumon",
-                   "orl"
+                   "Service"
             ],
             "date_published": "2024-10-23T17:39:11+02:00",
-            "date_modified": "2024-11-11T18:48:12+01:00"
+            "date_modified": "2024-11-11T19:14:38+01:00"
         },
         {
             "id": "https://Oncologie.org/test-de-related-post/",
