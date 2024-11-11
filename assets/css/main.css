@@ -40,6 +40,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -57,9 +58,7 @@ body {
 
   
 }
-:focus{
-  outline: none !important;
-}
+:focus { outline: none !important;}
 
 a {
   text-decoration: none;
