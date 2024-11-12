@@ -55,7 +55,7 @@ body {
   -webkit-tap-highlight-color: transparent;
       -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
-pointer-events:none;
+
   
 }
 :focus { outline: none !important;}
@@ -752,7 +752,7 @@ textarea {
   text-transform: uppercase;
   font-size: clamp(1.2945382732rem, 1.2945382732rem + 0.1783586075 * (100vw - 20rem) / 55, 1.4728968807rem);
 }
-@media all and (max-width: 700px) {
+@media all and (max-width: 1200px) {
 	.owner {
 	  display:none;
 	}
