@@ -2269,18 +2269,18 @@ ul.contact li a {
   }
 }
 .page--author__content a:not(.page--author__website a) {
-  /*color: var(--link-hover-color);*/
+  color: var(--link-hover-color);
   -webkit-transition: all 0.24s ease-out;
   transition: all 0.24s ease-out;
 }
 .page--author__content a:not(.page--author__website a):hover {
-  /*color: var(--link-color);*/
+  color: var(--link-color);
 }
 .page--author__content a:not(.page--author__website a):active {
-  /*color: var(--link-color);*/
+  color: var(--link-color);
 }
 .page--author__content a:not(.page--author__website a):focus {
-  /*color: var(--link-color);*/
+  color: var(--link-color);
 }
 .page--author__name {
   margin: 0;
