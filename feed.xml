@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>St-Louis.Oncologie.Org</title>
-    <link href="https://Oncologie.org/feed.xml" rel="self" />
-    <link href="https://Oncologie.org" />
+    <title>Oncologue.Net</title>
+    <link href="https://oncologue.net/feed.xml" rel="self" />
+    <link href="https://oncologue.net" />
     <updated>2024-11-12T19:35:58+01:00</updated>
     <author>
         <name>Dr Mohammed-Amine Bensakhria</name>
     </author>
-    <id>https://Oncologie.org</id>
+    <id>https://oncologue.net</id>
 
     <entry>
         <title>Pr Stéphane Culine</title>
         <author>
             <name>Pr Stéphane Culine</name>
         </author>
-        <link href="https://Oncologie.org/post-du-pr-stephane-culine/"/>
-        <id>https://Oncologie.org/post-du-pr-stephane-culine/</id>
+        <link href="https://oncologue.net/post-du-pr-stephane-culine/"/>
+        <id>https://oncologue.net/post-du-pr-stephane-culine/</id>
 
         <updated>2024-11-12T02:59:09+01:00</updated>
             <summary></summary>
@@ -26,8 +26,8 @@
         <author>
             <name>Pr Sandrine Faivre</name>
         </author>
-        <link href="https://Oncologie.org/post-du-pr-sandrine-faivre/"/>
-        <id>https://Oncologie.org/post-du-pr-sandrine-faivre/</id>
+        <link href="https://oncologue.net/post-du-pr-sandrine-faivre/"/>
+        <id>https://oncologue.net/post-du-pr-sandrine-faivre/</id>
 
         <updated>2024-11-12T02:58:34+01:00</updated>
             <summary></summary>
@@ -38,8 +38,8 @@
         <author>
             <name>Dr Tiphaine Lambert</name>
         </author>
-        <link href="https://Oncologie.org/post-du-dr-tiphaine-lambert/"/>
-        <id>https://Oncologie.org/post-du-dr-tiphaine-lambert/</id>
+        <link href="https://oncologue.net/post-du-dr-tiphaine-lambert/"/>
+        <id>https://oncologue.net/post-du-dr-tiphaine-lambert/</id>
 
         <updated>2024-11-12T02:58:08+01:00</updated>
             <summary></summary>
@@ -50,8 +50,8 @@
         <author>
             <name>Dr Safae Terrisse</name>
         </author>
-        <link href="https://Oncologie.org/post-du-dr-safae-terrisse/"/>
-        <id>https://Oncologie.org/post-du-dr-safae-terrisse/</id>
+        <link href="https://oncologue.net/post-du-dr-safae-terrisse/"/>
+        <id>https://oncologue.net/post-du-dr-safae-terrisse/</id>
 
         <updated>2024-11-12T02:57:16+01:00</updated>
             <summary></summary>
@@ -62,8 +62,8 @@
         <author>
             <name>Dr Natia Tamazashvili</name>
         </author>
-        <link href="https://Oncologie.org/post-du-dr-natia-tamazashvili/"/>
-        <id>https://Oncologie.org/post-du-dr-natia-tamazashvili/</id>
+        <link href="https://oncologue.net/post-du-dr-natia-tamazashvili/"/>
+        <id>https://oncologue.net/post-du-dr-natia-tamazashvili/</id>
 
         <updated>2024-11-12T02:56:41+01:00</updated>
             <summary></summary>
@@ -74,8 +74,8 @@
         <author>
             <name>Dr Marion Alhenc Gelas</name>
         </author>
-        <link href="https://Oncologie.org/post-du-dr-alhenc-gelas/"/>
-        <id>https://Oncologie.org/post-du-dr-alhenc-gelas/</id>
+        <link href="https://oncologue.net/post-du-dr-alhenc-gelas/"/>
+        <id>https://oncologue.net/post-du-dr-alhenc-gelas/</id>
 
         <updated>2024-11-12T02:56:00+01:00</updated>
             <summary></summary>
@@ -86,8 +86,8 @@
         <author>
             <name>Dr Madeleine Lefevre</name>
         </author>
-        <link href="https://Oncologie.org/post-du-dr-madeleine-lefevre/"/>
-        <id>https://Oncologie.org/post-du-dr-madeleine-lefevre/</id>
+        <link href="https://oncologue.net/post-du-dr-madeleine-lefevre/"/>
+        <id>https://oncologue.net/post-du-dr-madeleine-lefevre/</id>
 
         <updated>2024-11-12T02:55:13+01:00</updated>
             <summary></summary>
@@ -98,8 +98,8 @@
         <author>
             <name>Dr Leah Mailly-Giacchetti</name>
         </author>
-        <link href="https://Oncologie.org/post-du-dr-leah-mailly-giacchetti/"/>
-        <id>https://Oncologie.org/post-du-dr-leah-mailly-giacchetti/</id>
+        <link href="https://oncologue.net/post-du-dr-leah-mailly-giacchetti/"/>
+        <id>https://oncologue.net/post-du-dr-leah-mailly-giacchetti/</id>
 
         <updated>2024-11-12T02:54:38+01:00</updated>
             <summary></summary>
@@ -110,8 +110,8 @@
         <author>
             <name>Dr Hélène Gauthier</name>
         </author>
-        <link href="https://Oncologie.org/post-du-dr-helene-gauthier/"/>
-        <id>https://Oncologie.org/post-du-dr-helene-gauthier/</id>
+        <link href="https://oncologue.net/post-du-dr-helene-gauthier/"/>
+        <id>https://oncologue.net/post-du-dr-helene-gauthier/</id>
 
         <updated>2024-11-12T02:53:45+01:00</updated>
             <summary></summary>
@@ -122,8 +122,8 @@
         <author>
             <name>Dr Françoise Colardelle</name>
         </author>
-        <link href="https://Oncologie.org/post-du-dr-francoise-colardelle/"/>
-        <id>https://Oncologie.org/post-du-dr-francoise-colardelle/</id>
+        <link href="https://oncologue.net/post-du-dr-francoise-colardelle/"/>
+        <id>https://oncologue.net/post-du-dr-francoise-colardelle/</id>
 
         <updated>2024-11-12T02:51:50+01:00</updated>
             <summary></summary>

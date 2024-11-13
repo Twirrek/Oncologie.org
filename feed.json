@@ -1,17 +1,17 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "St-Louis.Oncologie.Org",
+    "title": "Oncologue.Net",
     "description": "",
-    "home_page_url": "https://Oncologie.org",
-    "feed_url": "https://Oncologie.org/feed.json",
+    "home_page_url": "https://oncologue.net",
+    "feed_url": "https://oncologue.net/feed.json",
     "user_comment": "",
     "author": {
         "name": "Dr Mohammed-Amine Bensakhria"
     },
     "items": [
         {
-            "id": "https://Oncologie.org/post-du-pr-stephane-culine/",
-            "url": "https://Oncologie.org/post-du-pr-stephane-culine/",
+            "id": "https://oncologue.net/post-du-pr-stephane-culine/",
+            "url": "https://oncologue.net/post-du-pr-stephane-culine/",
             "title": "Pr Stéphane Culine",
             "author": {
                 "name": "Pr Stéphane Culine"
@@ -22,8 +22,8 @@
             "date_modified": "2024-11-12T19:35:58+01:00"
         },
         {
-            "id": "https://Oncologie.org/post-du-pr-sandrine-faivre/",
-            "url": "https://Oncologie.org/post-du-pr-sandrine-faivre/",
+            "id": "https://oncologue.net/post-du-pr-sandrine-faivre/",
+            "url": "https://oncologue.net/post-du-pr-sandrine-faivre/",
             "title": "Pr Sandrine Faivre",
             "author": {
                 "name": "Pr Sandrine Faivre"
@@ -34,8 +34,8 @@
             "date_modified": "2024-11-12T19:35:49+01:00"
         },
         {
-            "id": "https://Oncologie.org/post-du-dr-tiphaine-lambert/",
-            "url": "https://Oncologie.org/post-du-dr-tiphaine-lambert/",
+            "id": "https://oncologue.net/post-du-dr-tiphaine-lambert/",
+            "url": "https://oncologue.net/post-du-dr-tiphaine-lambert/",
             "title": "Dr Tiphaine Lambert",
             "author": {
                 "name": "Dr Tiphaine Lambert"
@@ -46,8 +46,8 @@
             "date_modified": "2024-11-12T19:35:36+01:00"
         },
         {
-            "id": "https://Oncologie.org/post-du-dr-safae-terrisse/",
-            "url": "https://Oncologie.org/post-du-dr-safae-terrisse/",
+            "id": "https://oncologue.net/post-du-dr-safae-terrisse/",
+            "url": "https://oncologue.net/post-du-dr-safae-terrisse/",
             "title": "Dr Safae Terrisse",
             "author": {
                 "name": "Dr Safae Terrisse"
@@ -58,8 +58,8 @@
             "date_modified": "2024-11-12T19:35:27+01:00"
         },
         {
-            "id": "https://Oncologie.org/post-du-dr-natia-tamazashvili/",
-            "url": "https://Oncologie.org/post-du-dr-natia-tamazashvili/",
+            "id": "https://oncologue.net/post-du-dr-natia-tamazashvili/",
+            "url": "https://oncologue.net/post-du-dr-natia-tamazashvili/",
             "title": "Dr Natia Tamazashvili",
             "author": {
                 "name": "Dr Natia Tamazashvili"
@@ -70,8 +70,8 @@
             "date_modified": "2024-11-12T19:35:16+01:00"
         },
         {
-            "id": "https://Oncologie.org/post-du-dr-alhenc-gelas/",
-            "url": "https://Oncologie.org/post-du-dr-alhenc-gelas/",
+            "id": "https://oncologue.net/post-du-dr-alhenc-gelas/",
+            "url": "https://oncologue.net/post-du-dr-alhenc-gelas/",
             "title": "Dr Alhenc Gelas",
             "author": {
                 "name": "Dr Marion Alhenc Gelas"
@@ -82,8 +82,8 @@
             "date_modified": "2024-11-12T19:35:08+01:00"
         },
         {
-            "id": "https://Oncologie.org/post-du-dr-madeleine-lefevre/",
-            "url": "https://Oncologie.org/post-du-dr-madeleine-lefevre/",
+            "id": "https://oncologue.net/post-du-dr-madeleine-lefevre/",
+            "url": "https://oncologue.net/post-du-dr-madeleine-lefevre/",
             "title": "Dr Madeleine Lefevre",
             "author": {
                 "name": "Dr Madeleine Lefevre"
@@ -94,8 +94,8 @@
             "date_modified": "2024-11-12T19:34:58+01:00"
         },
         {
-            "id": "https://Oncologie.org/post-du-dr-leah-mailly-giacchetti/",
-            "url": "https://Oncologie.org/post-du-dr-leah-mailly-giacchetti/",
+            "id": "https://oncologue.net/post-du-dr-leah-mailly-giacchetti/",
+            "url": "https://oncologue.net/post-du-dr-leah-mailly-giacchetti/",
             "title": "Dr Leah Mailly-Giacchetti",
             "author": {
                 "name": "Dr Leah Mailly-Giacchetti"
@@ -106,8 +106,8 @@
             "date_modified": "2024-11-12T19:34:47+01:00"
         },
         {
-            "id": "https://Oncologie.org/post-du-dr-helene-gauthier/",
-            "url": "https://Oncologie.org/post-du-dr-helene-gauthier/",
+            "id": "https://oncologue.net/post-du-dr-helene-gauthier/",
+            "url": "https://oncologue.net/post-du-dr-helene-gauthier/",
             "title": "Dr Hélène Gauthier",
             "author": {
                 "name": "Dr Hélène Gauthier"
@@ -118,8 +118,8 @@
             "date_modified": "2024-11-12T19:34:36+01:00"
         },
         {
-            "id": "https://Oncologie.org/post-du-dr-francoise-colardelle/",
-            "url": "https://Oncologie.org/post-du-dr-francoise-colardelle/",
+            "id": "https://oncologue.net/post-du-dr-francoise-colardelle/",
+            "url": "https://oncologue.net/post-du-dr-francoise-colardelle/",
             "title": "Dr Françoise Colardelle",
             "author": {
                 "name": "Dr Françoise Colardelle"
