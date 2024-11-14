@@ -1636,6 +1636,11 @@ ul.contact li a {
   margin-right: 0.7285714286rem;
   white-space: nowrap;
 }
+/*tarik*/
+.u-header__meta > div {
+    display: flex;
+  flex-wrap: wrap;
+}
 .u-header__avatar {
   border-radius: 50%;
   height: 1.7rem;
