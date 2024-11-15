@@ -1636,23 +1636,32 @@ ul.contact li a {
   margin-right: 0.7285714286rem;
   white-space: nowrap;
 }
-/*tarik*/
+/*<tarik>*/
 .u-header__meta > div {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
 }
 .u-header__avatar {
+}
+img.u-header__avatar {
   border-radius: 50%;
   height: 1.7rem;
-  margin-right: 0.7285714286rem;
   width: 1.7rem;
+  max-width: none;
 }
-
+a.u-header__avatar{
+  margin-right: 0.7285714286rem;
+}
 .u-author__avatar {
+
+}
+img.u-author__avatar {
   border-radius: 50%;
   height: 3.8857142857rem;
   margin-bottom: 0.9714285714rem;
   width: 3.8857142857rem;
 }
+
 @media all and (min-width: 37.5em) {
   .u-author__avatar {
     float: left;
