@@ -415,6 +415,10 @@ button {
  .theme-switcher * {
 	 pointer-events: none;
 }
+.navbar_mobile_sidebar .theme-switcher {
+  margin: 1em;
+  align-self: center;
+}
  .theme-switcher > .theme-icon {
 	 padding: var(--theme-switcher-border-size);
 	 border-radius: var(--border-radius-full);
@@ -819,11 +823,11 @@ textarea {
 	  display:none;
 	}
 }
-@media all and (min-width: 37.4375em) {
+/*@media all and (min-width: 37.4375em) {
 	.topbar__inner button {
 	  display:none;
 	}
-}
+}*/
 @media all and (max-width: 37.4375em) {
 	.infobar button {
 	  display:none;
@@ -1175,6 +1179,11 @@ textarea {
 }
 
 .navbar_mobile_sidebar {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
   background: var(--mobile-sidebar);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);

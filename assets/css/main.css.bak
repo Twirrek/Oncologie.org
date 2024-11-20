@@ -819,13 +819,13 @@ textarea {
 	  display:none;
 	}
 }
-@media all and (min-width: 37.4375em) {
+/*@media all and (min-width: 37.4375em) {
 	.topbar__inner button {
 	  display:none;
 	}
-}
+}*/
 @media all and (max-width: 37.4375em) {
-	.topbar__inner button {
+	.infobar button {
 	  display:none;
 	}
 }
