@@ -1232,7 +1232,7 @@ textarea {
   height: 0;
   border-style: solid;
   border-width: 5px 5px 0 5px;
-  border-color: var(--gray) transparent transparent transparent;
+  border-color: var(--link-color) transparent transparent transparent;
   right: 0;
   top: 18px;
   position: absolute;
