@@ -828,6 +828,11 @@ textarea {
 	  display:none;
 	}
 }*/
+@media all and (min-width: 56.1875em) {
+	.infobar button {
+       margin-right: calc(var(--sidebar-width) + 1.9428571429rem);
+	}
+}
 @media all and (max-width: 37.4375em) {
 	.infobar button {
 	  display:none;
@@ -1232,7 +1237,7 @@ textarea {
   height: 0;
   border-style: solid;
   border-width: 5px 5px 0 5px;
-  border-color: var(--gray) transparent transparent transparent;
+  border-color: var(--link-color) transparent transparent transparent;
   right: 0;
   top: 18px;
   position: absolute;
