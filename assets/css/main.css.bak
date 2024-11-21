@@ -391,7 +391,7 @@ button {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-
+/*<tarik>*/
 .theme-switcher {
 	 --theme-switcher-radius: 40px;
 	 --theme-switcher-border: var(--colors-black);
@@ -969,8 +969,8 @@ textarea {
 .navbar .navbar__submenu {
   background: var(--white);
   border-radius: 4px;
-  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 6px var(--menu-border-color) /*rgba(0, 0, 0, 0.15);*/
+          box-shadow: 0 0 6px var(--menu-border-color) /*rgba(0, 0, 0, 0.15);*/
   left: -9999px;
   list-style-type: none;
   margin: 0;
@@ -1193,7 +1193,7 @@ textarea {
 }
 
 .navbar_mobile_sidebar {
-
+  /*<tarik>*/
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1246,7 +1246,7 @@ textarea {
   height: 0;
   border-style: solid;
   border-width: 5px 5px 0 5px;
-  border-color: var(--link-color) transparent transparent transparent;
+  border-color: var(--link-color) transparent transparent transparent;/*<Tarik>*/
   right: 0;
   top: 18px;
   position: absolute;
