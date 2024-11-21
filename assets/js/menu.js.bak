@@ -200,7 +200,7 @@
         var menuWrapper = document.createElement('div');
         menuWrapper.classList.add(config.mobileMenuSidebarClass);
         menuWrapper.classList.add(config.hiddenElementClass);
-				var switcherContentHTML = `<button class="theme-switcher js-theme-switcher" type="button" aria-pressed="false">
+				var menuContentHTML = `<button class="theme-switcher js-theme-switcher" type="button" aria-pressed="false">
     <span class="visually-hidden">Changer le mode de couleurs</span>
     <span class="theme-icon">
       <svg class="theme-icon-light" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="transparent" stroke="currentColor" stroke-linecap="round">
@@ -212,7 +212,7 @@
       </svg>
     </span>
   </button>`
-        var menuContentHTML = '';
+        
 
         if (config.mobileMenuSidebarLogoSelector !== null) {
             menuContentHTML = document.querySelector(config.mobileMenuSidebarLogoSelector).outerHTML;

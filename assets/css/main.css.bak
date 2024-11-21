@@ -828,12 +828,21 @@ textarea {
 	  display:none;
 	}
 }*/
-@media all and (min-width: 56.1875em) {
+/*@media all and (min-width: 56.1875em) {
 	.infobar button {
        margin-right: calc(var(--sidebar-width) + 1.9428571429rem);
 	}
 }
 @media all and (max-width: 37.4375em) {
+	.infobar button {
+	  display:none;
+	}
+}*/
+
+.infobar button {
+   margin-right: calc(var(--sidebar-width) + 1.9428571429rem);
+}
+@media all and (max-width: 56.1875em) {
 	.infobar button {
 	  display:none;
 	}
