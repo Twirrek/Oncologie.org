@@ -2100,7 +2100,7 @@ img.u-author__avatar {
   width: 1.9428571429rem;
 }
 .content__share > a:hover {
-  background: var(--link-hover-color);
+  background: #CF6679;/*<Tarik> var(--black) var(--link-hover-color);*/
   text-decoration: none;
 }
 .content__share > a > svg {
