@@ -1021,7 +1021,7 @@ textarea {
   padding: 0.4857142857rem 1.2142857143rem;
 }
 .navbar .navbar__submenu li:hover > a, .navbar .navbar__submenu li:hover > span[aria-haspopup=true] {
-  color: var(--headings-color);/*<Tarik>*/
+  color: var(--link-color); /*<Tarik> var(--headings-color);*/
 }
 .navbar .navbar__toggle {
   background: none;
@@ -2190,13 +2190,14 @@ img.u-author__avatar {
 .content__bio h4 {
   margin: 0;
 }
+/*<Tarik> erreur hover corrigée</Tarik>*/
 .content__bio a {
   color: var(--link-color);
   -webkit-transition: all 0.24s ease-out;
   transition: all 0.24s ease-out;
 }
 .content__bio a:hover {
-  color: var(--link-color);
+  color: var(--link-hover-color);
 }
 .content__bio a:active {
   color: var(--link-color);
