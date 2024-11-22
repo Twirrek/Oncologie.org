@@ -969,8 +969,8 @@ textarea {
 .navbar .navbar__submenu {
   background: var(--white);
   border-radius: 4px;
-  -webkit-box-shadow: 0 0 6px var(--menu-border-color) /*rgba(0, 0, 0, 0.15);*/
-          box-shadow: 0 0 6px var(--menu-border-color) /*rgba(0, 0, 0, 0.15);*/
+  -webkit-box-shadow: 0 0 6px var(--menu-border-color); /*rgba(0, 0, 0, 0.15);*/
+          box-shadow: 0 0 6px var(--menu-border-color); /*rgba(0, 0, 0, 0.15);*/
   left: -9999px;
   list-style-type: none;
   margin: 0;
@@ -2106,6 +2106,9 @@ img.u-author__avatar {
 .content__share > a > svg {
   fill: var(--white);
   pointer-events: none;
+}
+.content__share > a.twitter > svg {
+  fill: white;
 }
 .content__tag {
   margin-left: 0;

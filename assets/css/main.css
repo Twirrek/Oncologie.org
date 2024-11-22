@@ -2107,6 +2107,10 @@ img.u-author__avatar {
   fill: var(--white);
   pointer-events: none;
 }
+/*<Tarik>*/
+.content__share > a.twitter > svg {
+  fill: white;
+}
 .content__tag {
   margin-left: 0;
 }
