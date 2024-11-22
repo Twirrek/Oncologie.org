@@ -124,7 +124,10 @@ h6 {
   margin-top: 2.1857142857rem;
   text-transform: var(--headings-transform);
 }
-
+/*<Tarik>*/
+a h5 {
+ color: var(--link-color);
+}
 h1,
 .h1 {
   font-size: clamp(1.4728968807rem, 1.4728968807rem + 0.4338245039 * (100vw - 20rem) / 55, 1.9067213845rem);
@@ -2188,7 +2191,7 @@ img.u-author__avatar {
   margin: 0;
 }
 .content__bio a {
-  color: var(--link-hover-color);
+  color: var(--link-color);
   -webkit-transition: all 0.24s ease-out;
   transition: all 0.24s ease-out;
 }

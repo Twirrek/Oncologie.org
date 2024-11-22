@@ -124,6 +124,7 @@ h6 {
   margin-top: 2.1857142857rem;
   text-transform: var(--headings-transform);
 }
+/*<Tarik>*/
 a h5 {
  color: var(--link-color);
 }
@@ -2190,12 +2191,12 @@ img.u-author__avatar {
   margin: 0;
 }
 .content__bio a {
-  color: var(--link-hover-color);
+  color: var(--link-color);
   -webkit-transition: all 0.24s ease-out;
   transition: all 0.24s ease-out;
 }
 .content__bio a:hover {
-  color: var(--link-color);
+  color: var(--link-hover-color);
 }
 .content__bio a:active {
   color: var(--link-color);
