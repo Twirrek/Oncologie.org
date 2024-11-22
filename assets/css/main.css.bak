@@ -2100,13 +2100,14 @@ img.u-author__avatar {
   width: 1.9428571429rem;
 }
 .content__share > a:hover {
-  background: var(--black);
+  background: var(--link-hover-color);
   text-decoration: none;
 }
 .content__share > a > svg {
   fill: var(--white);
   pointer-events: none;
 }
+/*<Tarik>*/
 .content__share > a.twitter > svg {
   fill: white;
 }
