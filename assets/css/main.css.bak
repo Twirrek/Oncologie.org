@@ -1020,8 +1020,12 @@ textarea {
   color: var(--dark);
   padding: 0.4857142857rem 1.2142857143rem;
 }
-.navbar .navbar__submenu li:hover > a, .navbar .navbar__submenu li:hover > span[aria-haspopup=true] {
-  color: var(--link-color); /*<Tarik> var(--headings-color);*/
+/*<Tarik>*/
+html[data-theme-preference="light"] .navbar .navbar__submenu li:hover > a, html[data-theme-preference="light"] .navbar .navbar__submenu li:hover > span[aria-haspopup=true] {
+  color: var(--headings-color);
+}
+html[data-theme-preference="dark"] .navbar .navbar__submenu li:hover > a, html[data-theme-preference="dark"] .navbar .navbar__submenu li:hover > span[aria-haspopup=true] {
+  color: var(--link-color);
 }
 .navbar .navbar__toggle {
   background: none;
@@ -1788,7 +1792,8 @@ img.u-author__avatar {
   padding: 0.1821428571rem 0.3642857143rem;
 }
 .u-tag:hover {
-  background: var(--dark);
+  background: var(--badge-hover-bg);/*var(--dark);*/
+  color: var(--badge-hover-txt);
 }
 
 .infobar {

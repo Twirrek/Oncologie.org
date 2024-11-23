@@ -1783,7 +1783,7 @@ img.u-author__avatar {
 .u-author__website a {
   margin-left: 0.4rem;
 }
-
+/*<Tarik>*/
 .u-tag {
   background: var(--badge-bg);
   border-radius: 3px;
@@ -1792,7 +1792,8 @@ img.u-author__avatar {
   padding: 0.1821428571rem 0.3642857143rem;
 }
 .u-tag:hover {
-  background: var(--dark);
+  background: var(--badge-hover-bg);/*var(--dark);*/
+  color: var(--badge-hover-txt);
 }
 
 .infobar {
