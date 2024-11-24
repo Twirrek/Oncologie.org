@@ -124,10 +124,7 @@ h6 {
   margin-top: 2.1857142857rem;
   text-transform: var(--headings-transform);
 }
-/*<Tarik>*/
-a h5 {
- color: var(--link-color);
-}
+
 h1,
 .h1 {
   font-size: clamp(1.4728968807rem, 1.4728968807rem + 0.4338245039 * (100vw - 20rem) / 55, 1.9067213845rem);
@@ -394,7 +391,7 @@ button {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-/*<tarik>*/
+
 .theme-switcher {
 	 --theme-switcher-radius: 40px;
 	 --theme-switcher-border: var(--colors-black);
@@ -972,8 +969,8 @@ textarea {
 .navbar .navbar__submenu {
   background: var(--white);
   border-radius: 4px;
-  -webkit-box-shadow: 0 0 6px var(--menu-border-color); /*rgba(0, 0, 0, 0.15);*/
-          box-shadow: 0 0 6px var(--menu-border-color); /*rgba(0, 0, 0, 0.15);*/
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
   left: -9999px;
   list-style-type: none;
   margin: 0;
@@ -1020,12 +1017,8 @@ textarea {
   color: var(--dark);
   padding: 0.4857142857rem 1.2142857143rem;
 }
-/*<Tarik>*/
-html[data-theme-preference="light"] .navbar .navbar__submenu li:hover > a, html[data-theme-preference="light"] .navbar .navbar__submenu li:hover > span[aria-haspopup=true] {
-  color: var(--headings-color);
-}
-html[data-theme-preference="dark"] .navbar .navbar__submenu li:hover > a, html[data-theme-preference="dark"] .navbar .navbar__submenu li:hover > span[aria-haspopup=true] {
-  color: var(--link-color);
+.navbar .navbar__submenu li:hover > a, .navbar .navbar__submenu li:hover > span[aria-haspopup=true] {
+  color: var(--headings-color);/*<Tarik>*/
 }
 .navbar .navbar__toggle {
   background: none;
@@ -1200,7 +1193,7 @@ html[data-theme-preference="dark"] .navbar .navbar__submenu li:hover > a, html[d
 }
 
 .navbar_mobile_sidebar {
-  /*<tarik>*/
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1253,7 +1246,7 @@ html[data-theme-preference="dark"] .navbar .navbar__submenu li:hover > a, html[d
   height: 0;
   border-style: solid;
   border-width: 5px 5px 0 5px;
-  border-color: var(--link-color) transparent transparent transparent;/*<Tarik>*/
+  border-color: var(--link-color) transparent transparent transparent;
   right: 0;
   top: 18px;
   position: absolute;
@@ -1792,8 +1785,7 @@ img.u-author__avatar {
   padding: 0.1821428571rem 0.3642857143rem;
 }
 .u-tag:hover {
-  background: var(--badge-hover-bg);/*var(--dark);*/
-  color: var(--badge-hover-txt);
+  background: var(--dark);
 }
 
 .infobar {
@@ -2108,16 +2100,12 @@ img.u-author__avatar {
   width: 1.9428571429rem;
 }
 .content__share > a:hover {
-  background: #CF6679;/*<Tarik> var(--black) var(--link-hover-color);*/
+  background: var(--black);
   text-decoration: none;
 }
 .content__share > a > svg {
   fill: var(--white);
   pointer-events: none;
-}
-/*<Tarik>*/
-.content__share > a.twitter > svg {
-  fill: white;
 }
 .content__tag {
   margin-left: 0;
@@ -2195,14 +2183,13 @@ img.u-author__avatar {
 .content__bio h4 {
   margin: 0;
 }
-/*<Tarik> erreur hover corrigée</Tarik>*/
 .content__bio a {
-  color: var(--link-color);
+  color: var(--link-hover-color);
   -webkit-transition: all 0.24s ease-out;
   transition: all 0.24s ease-out;
 }
 .content__bio a:hover {
-  color: var(--link-hover-color);
+  color: var(--link-color);
 }
 .content__bio a:active {
   color: var(--link-color);
