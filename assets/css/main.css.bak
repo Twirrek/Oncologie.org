@@ -60,6 +60,124 @@ body {
 }
 :focus { outline: none !important;}
 
+  /* View Transitions */
+
+  [data-style='wipe']::view-transition-group(root) {
+    animation-duration: 1.25s;
+  }
+
+  [data-style='wipe']::view-transition-new(root) {
+    animation-name: reveal-light;
+  }
+
+  [data-style='wipe']::view-transition-old(root),
+  [data-style='wipe'][data-theme='dark']::view-transition-old(root) {
+    animation: none;
+  }
+
+  [data-style='wipe'][data-theme='dark']::view-transition-new(root) {
+    animation-name: reveal-dark;
+  }
+
+  @keyframes reveal-dark {
+    from {
+      clip-path: polygon(-30% 0, -30% 0, -15% 100%, -10% 115%);
+    }
+
+    to {
+      clip-path: polygon(-30% 0, 130% 0, 115% 100%, -10% 115%);
+    }
+  }
+
+  @keyframes reveal-light {
+    from {
+      clip-path: polygon(130% 0, 130% 0, 115% 100%, 110% 115%);
+    }
+
+    to {
+      clip-path: polygon(130% 0, -30% 0, -15% 100%, 110% 115%);
+    }
+  }
+
+  /* Angled */
+  [data-style='angled']::view-transition-old(root) {
+    animation: none;
+    z-index: -1;
+  }
+
+  [data-style='angled']::view-transition-new(root) {
+    animation: unclip 1s;
+    clip-path: polygon(-100vmax 100%, 100% 100%, 100% -100vmax);
+  }
+
+  @keyframes unclip {
+    0% {
+      clip-path: polygon(100% 100%, 100% 100%, 100% 100%);
+    }
+  }
+
+  /* Flip */
+
+  [data-style='flip']:root {
+    --size: 45px;
+    --line: color-mix(in lch, white, transparent 85%);
+    background: linear-gradient(
+          90deg,
+          var(--line) 1px,
+          transparent 1px var(--size)
+        )
+        50% 50% / var(--size) var(--size),
+      linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% /
+        var(--size) var(--size),
+      hsl(210 70% 34%);
+  }
+
+  [data-style='flip']::view-transition-new(body),
+  [data-style='flip']::view-transition-old(body) {
+    animation: pan 1s ease-in-out;
+    backface-visibility: hidden;
+    box-shadow: 2.2px 61.3px 73.1px -2px hsl(0 0% 0% / 0.58);
+  }
+
+  [data-style='flip']::view-transition-new(body) {
+    --sr: 180deg;
+    background: canvas;
+  }
+
+  [data-style='flip']::view-transition-old(body) {
+    --sr: 0deg;
+    backface-visibility: hidden;
+  }
+
+  [data-style='flip'] body {
+    view-transition-name: body;
+  }
+
+  @keyframes pan {
+    0% {
+      transform: scale(1) rotateY(var(--sr));
+    }
+
+    25% {
+      transform: scale(0.5) rotateY(var(--sr));
+      box-shadow: 1.8px 50.7px 51.4px -3.2px hsl(0 0% 0% / 0.32);
+    }
+
+    75% {
+      transform: scale(0.5) rotateY(calc(var(--sr) + 180deg));
+      box-shadow: 1.8px 50.7px 51.4px -3.2px hsl(0 0% 0% / 0.32);
+    }
+
+    100% {
+      transform: scale(1) rotateY(calc(var(--sr) + 180deg));
+    }
+  }
+
+  [data-style='flip']:root {
+    view-transition-name: none;
+  }
+
+
 a {
   text-decoration: none;
 }
@@ -1783,7 +1901,7 @@ img.u-author__avatar {
 .u-author__website a {
   margin-left: 0.4rem;
 }
-
+/*<Tarik>*/
 .u-tag {
   background: var(--badge-bg);
   border-radius: 3px;
