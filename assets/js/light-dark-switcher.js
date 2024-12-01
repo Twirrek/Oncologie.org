@@ -1,5 +1,6 @@
 // Encapsulation du code dans une fonction immédiatement invoquée
 (function() {
+	
   // Déclaration des variables
   const themeSwitcher = {
     buttons: document.querySelectorAll('.js-theme-switcher'),
@@ -7,10 +8,10 @@
     currentTheme: null
   };
 
+	document.documentElement.dataset.style = 'wipe';
+
   // Initialisation du thème
   function initTheme() {
-	  
-	document.documentElement.dataset.style = 'wipe';
 		
     if (localStorage.getItem('theme-preference')) {
       themeSwitcher.currentTheme = localStorage.getItem('theme-preference');
@@ -19,7 +20,7 @@
     } else {
       themeSwitcher.currentTheme = 'light';
     }
-    TOGGLE_THEME();
+    SWITCH();
   }
 
   // Gestion du clic sur le bouton
