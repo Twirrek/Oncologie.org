@@ -10,7 +10,7 @@
   // Initialisation du thème
   function initTheme() {
 	  
-	document.documentElement.dataset.style = 'slides';
+	document.documentElement.dataset.style = 'wipe';
 		
     if (localStorage.getItem('theme-preference')) {
       themeSwitcher.currentTheme = localStorage.getItem('theme-preference');
