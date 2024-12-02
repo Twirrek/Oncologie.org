@@ -18,16 +18,12 @@
     else 
 	  themeSwitcher.currentTheme = themeSwitcher.prefersDark.matches ? 'dark' : 'light';
 
-	const theme = themeSwitcher.currentTheme;
-    const pressed = theme === 'dark' ? 'true' : 'false';
-    themeSwitcher.buttons.forEach( button => button.setAttribute('aria-pressed', pressed));
-
+    SWITCH();
   }
 
   // Gestion du clic sur le bouton
   themeSwitcher.buttons.forEach( button => button.addEventListener('click', () => {
     themeSwitcher.currentTheme = document.documentElement.getAttribute('data-theme-preference') === "dark" ? "light" : "dark";
-    localStorage.setItem('theme-preference', theme);
     TOGGLE_THEME();
   }));
 
@@ -42,6 +38,7 @@
 	const theme = themeSwitcher.currentTheme;
     const pressed = theme === 'dark' ? 'true' : 'false';
     document.documentElement.setAttribute('data-theme-preference', theme);
+    localStorage.setItem('theme-preference', theme);
     themeSwitcher.buttons.forEach( button => button.setAttribute('aria-pressed', pressed));
   }
 

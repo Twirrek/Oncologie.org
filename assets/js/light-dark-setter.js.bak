@@ -1,0 +1,32 @@
+// Encapsulation du code dans une fonction immédiatement invoquée
+(function() {
+	
+  // Déclaration des variables
+  const themeSwitcher = {
+    buttons: document.querySelectorAll('.js-theme-switcher'),
+    prefersDark: window.matchMedia('(prefers-color-scheme: dark)'),
+    currentTheme: null
+  };
+
+
+  // Initialisation du thème
+  function initTheme() {
+		
+    if (localStorage.getItem('theme-preference'))
+      themeSwitcher.currentTheme = localStorage.getItem('theme-preference');
+    else 
+	  themeSwitcher.currentTheme = themeSwitcher.prefersDark.matches ? 'dark' : 'light';
+
+    SWITCH();
+  }
+
+  // Fonction pour définir le thème
+  function SWITCH() {
+	const theme = themeSwitcher.currentTheme;
+    document.documentElement.setAttribute('data-theme-preference', theme);
+    localStorage.setItem('theme-preference', theme);
+  }
+
+  // Initialisation
+  initTheme();
+})();
