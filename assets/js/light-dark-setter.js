@@ -28,7 +28,9 @@
   // Fonction pour définir le thème
   function SWITCH() {
 	const theme = themeSwitcher.currentTheme;
+    const pressed = theme === 'dark' ? 'true' : 'false';
     document.documentElement.setAttribute('data-theme-preference', theme);
+    themeSwitcher.buttons.forEach( button => button.setAttribute('aria-pressed', pressed));
   }
 
   // Initialisation

@@ -18,12 +18,8 @@
 	   if (storedSystemThemePreference === systemThemePreference) {
 	      if (localStorage.getItem('theme-preference'))
 		      themeSwitcher.currentTheme = localStorage.getItem('theme-preference');
-	   } else {
-		   if (themeSwitcher.prefersDark.matches)
-		      themeSwitcher.currentTheme = 'dark';	
-		   else if (localStorage.getItem('theme-preference'))
-		      themeSwitcher.currentTheme = localStorage.getItem('theme-preference');
-	   }
+	   } else 
+		   themeSwitcher.currentTheme = systemThemePreference;
 	}
 	localStorage.setItem('system-theme-preference', systemThemePreference);
     SWITCH();
