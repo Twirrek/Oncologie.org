@@ -27,13 +27,15 @@
   // Gestion du clic sur le bouton
   themeSwitcher.buttons.forEach( button => button.addEventListener('click', () => {
     themeSwitcher.currentTheme = document.documentElement.getAttribute('data-theme-preference') === "dark" ? "light" : "dark";
-    localStorage.setItem('theme-preference', theme);
+ 	const theme = themeSwitcher.currentTheme;   
+	localStorage.setItem('theme-preference', theme);
     TOGGLE_THEME();
   }));
 
   // Gestion du changement de préférence système
   themeSwitcher.prefersDark.addEventListener('change', (event) => {
     themeSwitcher.currentTheme = event.matches ? 'dark' : 'light';
+	localStorage.setItem('system-theme-preference', theme);
     TOGGLE_THEME();
   });
 

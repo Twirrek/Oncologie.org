@@ -3,7 +3,6 @@
 	
   // Déclaration des variables
   const themeSwitcher = {
-    buttons: document.querySelectorAll('.js-theme-switcher'),
     prefersDark: window.matchMedia('(prefers-color-scheme: dark)'),
     currentTheme: null
   };
@@ -12,11 +11,21 @@
   // Initialisation du thème
   function initTheme() {
 		
-    if (localStorage.getItem('theme-preference'))
-      themeSwitcher.currentTheme = localStorage.getItem('theme-preference');
-    else 
-	  themeSwitcher.currentTheme = themeSwitcher.prefersDark.matches ? 'dark' : 'light';
-
+	const systemThemePreference = themeSwitcher.prefersDark.matches ? 'dark' : 'light';
+	
+	if (localStorage.getItem('system-theme-preference')) {
+	   const storedSystemThemePreference = localStorage.getItem('system-theme-preference');
+	   if (storedSystemThemePreference === systemThemePreference) {
+	      if (localStorage.getItem('theme-preference'))
+		      themeSwitcher.currentTheme = localStorage.getItem('theme-preference');
+	   } else {
+		   if (themeSwitcher.prefersDark.matches)
+		      themeSwitcher.currentTheme = 'dark';	
+		   else if (localStorage.getItem('theme-preference'))
+		      themeSwitcher.currentTheme = localStorage.getItem('theme-preference');
+	   }
+	}
+	localStorage.setItem('system-theme-preference', systemThemePreference);
     SWITCH();
   }
 

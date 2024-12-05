@@ -64,7 +64,7 @@ body {
 
   /* Wipe */
   [data-style='wipe']::view-transition-group(root) {
-    animation-duration: 1.25s;
+    animation-duration: 1s;
   }
 
   [data-style='wipe']::view-transition-new(root) {
@@ -72,11 +72,11 @@ body {
   }
 
   [data-style='wipe']::view-transition-old(root),
-  [data-style='wipe'][data-theme-preference='light']::view-transition-old(root) {
+  [data-style='wipe'][data-theme-preference='dark']::view-transition-old(root) {
     animation: none;
   }
 
-  [data-style='wipe'][data-theme-preference='dark']::view-transition-new(root) {
+  [data-style='wipe'][data-theme-preference='light']::view-transition-new(root) {
     animation-name: reveal-dark;
   }
 
