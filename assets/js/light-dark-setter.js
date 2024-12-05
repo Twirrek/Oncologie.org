@@ -3,6 +3,7 @@
 	
   // Déclaration des variables
   const themeSwitcher = {
+    buttons: document.querySelectorAll('.js-theme-switcher'),
     prefersDark: window.matchMedia('(prefers-color-scheme: dark)'),
     currentTheme: null
   };
