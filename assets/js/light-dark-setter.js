@@ -3,16 +3,13 @@
 	
   // Déclaration des variables
   const themeSwitcher = {
-    buttons: document.querySelectorAll('.js-theme-switcher'),
     prefersDark: window.matchMedia('(prefers-color-scheme: dark)'),
     currentTheme: null
   };
 
 
-  // Initialisation du thème
-  function initTheme() {
-		
 	const systemThemePreference = themeSwitcher.prefersDark.matches ? 'dark' : 'light';
+	themeSwitcher.currentTheme = systemThemePreference;
 	
 	if (localStorage.getItem('system-theme-preference')) {
 	   const storedSystemThemePreference = localStorage.getItem('system-theme-preference');
@@ -23,17 +20,8 @@
 		   themeSwitcher.currentTheme = systemThemePreference;
 	}
 	localStorage.setItem('system-theme-preference', systemThemePreference);
-    SWITCH();
-  }
+	localStorage.setItem('theme-preference', themeSwitcher.currentTheme);
+    document.documentElement.setAttribute('data-theme-preference', themeSwitcher.currentTheme);
 
-  // Fonction pour définir le thème
-  function SWITCH() {
-	const theme = themeSwitcher.currentTheme;
-    const pressed = theme === 'dark' ? 'true' : 'false';
-    document.documentElement.setAttribute('data-theme-preference', theme);
-    themeSwitcher.buttons.forEach( button => button.setAttribute('aria-pressed', pressed));
-  }
 
-  // Initialisation
-  initTheme();
 })();
