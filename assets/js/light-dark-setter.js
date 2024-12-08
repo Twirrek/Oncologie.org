@@ -18,9 +18,9 @@
 		      themeSwitcher.currentTheme = localStorage.getItem('theme-preference');
 	   } else 
 		   themeSwitcher.currentTheme = systemThemePreference;
+	       localStorage.setItem('system-theme-preference', systemThemePreference);
+	       localStorage.setItem('theme-preference', themeSwitcher.currentTheme);
 	}
-	localStorage.setItem('system-theme-preference', systemThemePreference);
-	localStorage.setItem('theme-preference', themeSwitcher.currentTheme);
     document.documentElement.setAttribute('data-theme-preference', themeSwitcher.currentTheme);
 
 

@@ -20,7 +20,7 @@
 		   themeSwitcher.currentTheme = systemThemePreference;
 	}
 	localStorage.setItem('system-theme-preference', systemThemePreference);
-	localStorage.setItem('theme-preference', systemThemePreference);
+	localStorage.setItem('theme-preference', themeSwitcher.currentTheme);
     document.documentElement.setAttribute('data-theme-preference', themeSwitcher.currentTheme);
 
 
