@@ -34,8 +34,9 @@
 
   // Gestion du changement de préférence système
   themeSwitcher.prefersDark.addEventListener('change', (event) => {
-    themeSwitcher.currentTheme = event.matches ? 'dark' : 'light';
-	localStorage.setItem('system-theme-preference', themeSwitcher.currentTheme);
+    const theme = themeSwitcher.currentTheme = event.matches ? 'dark' : 'light';
+	localStorage.setItem('theme-preference', theme);
+	localStorage.setItem('system-theme-preference', theme);
     TOGGLE_THEME();
   });
 
