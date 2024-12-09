@@ -1,23 +1,9 @@
 // Encapsulation du code dans une fonction immédiatement invoquée
 (function() {
-
-  // Déclaration des variables
-  const themeSwitcher = {
-
-    prefersDark: window.matchMedia('(prefers-color-scheme: dark)'),
-    currentTheme: null
-  };
-
-    if (localStorage.getItem('theme-preference'))
-      themeSwitcher.currentTheme = localStorage.getItem('theme-preference');
-    else 
-	  themeSwitcher.currentTheme = themeSwitcher.prefersDark.matches ? 'dark' : 'light';
-
-    const pressed = themeSwitcher.currentTheme === 'dark' ? 'true' : 'false';
 	
 	document.querySelector(".infobar")
                 .innerHTML +=
-		`<button class="theme-switcher js-theme-switcher" type="button" aria-pressed="`+pressed+`">
+		`<button class="theme-switcher js-theme-switcher" type="button">
 			<span class="visually-hidden">Changer le mode de couleurs</span>
 			<span class="theme-icon">
 			  <svg class="theme-icon-light" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="transparent" stroke="currentColor" stroke-linecap="round">
@@ -30,16 +16,26 @@
 			</span>
 		  </button>`
 	
-    themeSwitcher.buttons = document.querySelectorAll('.js-theme-switcher');
-	themeSwitcher.buttons.forEach( button => button.setAttribute('aria-pressed', pressed));
+  // Déclaration des variables
+  const themeSwitcher = {
+    buttons: document.querySelectorAll('.js-theme-switcher'),
+    prefersDark: window.matchMedia('(prefers-color-scheme: dark)'),
+    currentTheme: null
+  };
 
 	document.documentElement.dataset.style = 'wipe';
 
   // Initialisation du thème
   function initTheme() {
 		
+    if (localStorage.getItem('theme-preference'))
+      themeSwitcher.currentTheme = localStorage.getItem('theme-preference');
+    else 
+	  themeSwitcher.currentTheme = themeSwitcher.prefersDark.matches ? 'dark' : 'light';
 
-
+	const theme = themeSwitcher.currentTheme;
+    const pressed = theme === 'dark' ? 'true' : 'false';
+    themeSwitcher.buttons.forEach( button => button.setAttribute('aria-pressed', pressed));
 
   }
 
