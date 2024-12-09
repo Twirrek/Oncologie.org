@@ -15,8 +15,7 @@
 
     const pressed = themeSwitcher.currentTheme === 'dark' ? 'true' : 'false';
 	
-	document.querySelector(".infobar")
-                .innerHTML +=
+	const buttonHTML = 
 		`<button class="theme-switcher js-theme-switcher" type="button" aria-pressed="${pressed}">
 			<span class="visually-hidden">Changer le mode de couleurs</span>
 			<span class="theme-icon">
@@ -30,8 +29,10 @@
 			</span>
 		  </button>`
 	
+	document.querySelector(".infobar").innerHTML += buttonHTML;
+	document.querySelector(".navbar_mobile_sidebar").insertAdjacentHTML('afterBegin', buttonHTML);
+
     themeSwitcher.buttons = document.querySelectorAll('.js-theme-switcher');
-	themeSwitcher.buttons.forEach( button => button.setAttribute('aria-pressed', pressed));
 
 	document.documentElement.dataset.style = 'wipe';
 
