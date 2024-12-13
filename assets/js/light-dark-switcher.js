@@ -36,13 +36,7 @@
 
 	document.documentElement.dataset.style = 'wipe';
 
-  // Initialisation du thème
-  function initTheme() {
-		
 
-
-
-  }
 
   // Gestion du clic sur le bouton
   themeSwitcher.buttons.forEach( button => button.addEventListener('click', () => {
@@ -73,6 +67,5 @@
 	  else document.startViewTransition(SWITCH)
 	}
 
-  // Initialisation
-  initTheme();
+
 })();

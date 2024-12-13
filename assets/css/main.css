@@ -177,7 +177,7 @@ body {
   [data-style='flip']:root {
     view-transition-name: none;
   }
-
+  /* Vertical */
   [data-style='vertical']::view-transition-new(root) {
     animation: reveal 1s;
     clip-path: inset(0 0 0 0);
@@ -266,7 +266,7 @@ body {
       --column-five: 100;
     }
   }
-
+  /* Slides */
   [data-style='slides']::view-transition-new(root) {
     clip-path: polygon(
       /*	1st column */ 0 100%,
@@ -329,7 +329,7 @@ body {
   [data-style='slides']::view-transition-old(root) {
     animation: none;
   }
-
+  /* End of View Transition*/
 
 a {
   text-decoration: none;

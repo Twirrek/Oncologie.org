@@ -30,7 +30,7 @@
 		  </button>`
 	
 	document.querySelector(".infobar").innerHTML += buttonHTML;
-	document.querySelector(".infobar").insertAdjacentHTML('afterBegin', buttonHTML);
+	document.querySelector(".navbar_mobile_sidebar").insertAdjacentHTML('afterBegin', buttonHTML);
 
     themeSwitcher.buttons = document.querySelectorAll('.js-theme-switcher');
 

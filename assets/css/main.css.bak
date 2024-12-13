@@ -64,7 +64,7 @@ body {
 
   /* Wipe */
   [data-style='wipe']::view-transition-group(root) {
-    animation-duration: 1s;
+    animation-duration: 1.25s;
   }
 
   [data-style='wipe']::view-transition-new(root) {
